@@ -26,3 +26,8 @@ The full code will be published and guided to use here after revision.
 # Citation: 
 
 Pandey, Shashi Raj, Lam D. Nguyen, and Petar Popovski. "A Contribution-based Device Selection Scheme in Federated Learning." arXiv preprint arXiv:2203.05369 (2022).
+
+#References: 
+
+* Federated Learning Pytorch: https://github.com/AshwinRJ/Federated-Learning-PyTorch
+* FedFomo: https://github.com/NVlabs/FedFomo

@@ -9,11 +9,19 @@ In a Federated Learning (FL) setup, a number of devices contribute to the traini
 
 # Results: 
 
+![alt text](https://github.com/lamnd09/cds/blob/main/results/result-cds.png)
 
+We have presented a simplified solution of the device selection problem in Federated Learning (FL), aiming to jointly improve model performance and lower the communication costs. In doing so, we have first formulated a min-max optimization problem. to solve it, we have developed a strategy that constitutes a mixture of exploration phase, where random selection of devices is made, similar to the plain FL approach but under a primal-dual setting of the learning problem, and an additional exploitation scheme that quantifies the contribution of selected devices in improving the model performance via efficient model aggregation. Extensive simulations on realworld dataset have demonstrated the efficacy of the proposed approach against the baselines in improving model performance, i.e., better generalization and personalization, lowering communication costs, and achieving fast convergence rate.
 
 # How to use
 
 The full code will be published and guided to use here after revision. 
+
+# System Requirements:
+
+* Pytorch 
+* Python ^3.7.0
+* numpy, pickle, tqdm
 
 # Citation: 
 
